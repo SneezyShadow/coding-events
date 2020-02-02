@@ -11,7 +11,7 @@
 <form method="post" action="/events/create">
     <div class="form-group">
         <label>Name
-            <input th:fidld="${event.name}" class="form-control">
+            <input th:field="${event.name}" class="form-control">
             <p class="error" th:errors="${event.name}"></p>
         </label>
         <label>Description
